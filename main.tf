@@ -15,10 +15,10 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "REPLACE_ME"
+    organization = "DD_dataeng"
 
     workspaces {
-      name = "learn-terraform-github-actions"
+      name = "DD_dataeng"
     }
   }
 }
